@@ -37,7 +37,6 @@ services:
       depends_on:
         - mysql
         - rabbitmq
-        - elasticsearch
         - redis
       networks:
         - symfony
